@@ -25,4 +25,4 @@ jobs:
       run: go mod tidy && go build -v barrett.go
 
     - name: Test
-      run: go mod tidy && go test -timeout 5s -run ^TestBarrettReduce$ go-barrett-reduce -v -count=1
+      run: go mod tidy && go test -timeout 5s -run ^TestBarrettReduce$ github.com/zkweb3/go-barrett-reduce -v -count=1

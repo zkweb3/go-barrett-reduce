@@ -1,4 +1,4 @@
-module go-barrett-reduce
+module github.com/zkweb3/go-barrett-reduce
 
 go 1.21.6
 

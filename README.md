@@ -2,5 +2,5 @@
 
 ### Testing
 ```bash
-go test -timeout 5s -run ^TestBarrettReduce$ go-barrett-reduce -v -count=1
+go test -timeout 5s -run ^TestBarrettReduce$ github.com/zkweb3/go-barrett-reduce -v -count=1
 ```
